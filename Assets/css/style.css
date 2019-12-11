@@ -6,9 +6,9 @@ body {
 }
 
 .navbar {
-    padding: 0px;
     line-height: 40px;
     border-bottom: 1px solid #cccccc;
+    width: 100%;
 }
 
 .navbar-custom {
@@ -24,7 +24,6 @@ body {
     width: fit-content;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 26px;
-    display: inline-block;
     vertical-align: middle;
     margin-left: 100px;
     font-weight: bold;
@@ -32,18 +31,17 @@ body {
 }
 
 .navbar-collapse {
-    margin-right: 100px;
     font-size: 16px;
+    margin-right: 20px;
 }
 
-.about-me-content {
+.main {
     width: 75%;
-    margin-top: 30px;
+    margin-top: 50px;
     background-color: white;
-    margin-left: 200px;
-    margin-right:200px;
     padding: 30px 30px 30px 30px;
     border: 1px solid #dddddd;
+    margin-left: 150px;
 }
 
 h1 {
@@ -66,5 +64,25 @@ img {
    margin-right: 15px;
    margin-bottom: 10px;
    margin-top: 10px;
+}
+
+#formGroupExampleInput {
+    width: 90%;
+}
+
+#formGroupExampleInput2{
+    width: 90%;
+}
+
+#exampleFormControlTextarea1 {
+    width: 90%;
+}
+
+.submit-btn{
+    color: white;
+    background-color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 5px 20px;
 }
 

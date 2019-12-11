@@ -12,21 +12,53 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-sm navbar-light" style="background-color: white">
-        <a class="navbar-brand" href="#" id=logo>Jennifer Mullin</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="navbar-nav ml-auto">
-                <a class="nav-item nav-link" href="index.html">About</a>
-                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                <a class="nav-item nav-link active" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+    <div class="row">
+
+        <nav class="navbar navbar-expand-sm navbar-light" style="background-color: white">
+            <a class="navbar-brand" href="#" id="logo">Jennifer Mullin</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link" href="index.html">About</a>
+                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                    <a class="nav-item nav-link active" href="contact.html">Contact <span
+                            class="sr-only">(current)</span></a>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
+
+
+
+    <div class="main">
+
+        <h1>Contact</h1>
+        <form>
+            <div class="form-group">
+                <label for="formGroupExampleInput">Name</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Smith">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput2">Email</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="example@gmail.com">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+            </div>
+            <button class="submit-btn">Submit</button>
+
+        </form>
+
+
+
+
+
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
