@@ -37,10 +37,10 @@ body {
 
 .main {
     width: 80%;
+    margin-left: 10%;
     margin-top: 50px;
     background-color: white;
     padding: 30px 30px 30px 30px;
-    margin-left: 100px;
     border: 1px solid #dddddd;
 }
 
@@ -110,5 +110,16 @@ h2 {
     padding: 5px;
 
 }
-
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #dddddd;
+    font-size: 10px;
+}
 
