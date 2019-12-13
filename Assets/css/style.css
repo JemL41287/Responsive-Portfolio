@@ -16,23 +16,28 @@ body {
     
 
 }
-
+.noOverflow {
+    overflow: none;
+}
 #logo {
-    height: 100%;
     color: white;
     background-color: #4aaaa5;
     width: fit-content;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 26px;
     vertical-align: middle;
-    margin-left: 100px;
+    margin-left: 10%;
     font-weight: bold;
     padding: 10px 10px 10px 10px;
 }
 
 .navbar-collapse {
     font-size: 16px;
-    margin-right: 20px;
+    margin-right: 10%;
+}
+
+#noPadding {
+    padding: 0;
 }
 
 .main {
